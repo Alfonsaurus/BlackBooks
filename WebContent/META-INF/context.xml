@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/blackbookstore" auth="Container"
+		type="javax.sql.DataSource" maxTotal="30" maxIdle="3"
+		maxWaitMillis="5000" username="root" password="Temp2018$$"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+
+
+		url="jdbc:mysql://localhost:3306/blackbookstore?serverTimezone=Europe/Madrid&amp;useSSL=FALSE">
+	</Resource>
+
+</Context>

@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+/*home.jsp*/
+#headerContainer {
+	height: 10%;
+	background-color: #344955;
+	padding: 1em;
+}
+
+#headerContainer h1 {
+	font-size: 3vw;
+	color: white;
+}
+
+#mainContainer {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#footerContainer {
+	overflow: hidden;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding: 1em;
+	background-color: #344955;
+	margin-top:0.5em;
+}
+
+/*init.jsp*/
+#initLogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 20%;
+}
+
+#initForm {
+	text-align: center;
+}
+
+#initForm .btn {
+	background-color: #f9aa33;
+	border-color: silver;
+}
+
+#initForm .btn:hover {
+	background-color: #ffd247;
+}
+
+.modal-body {
+	background-color: #344955;
+}
+
+#formLogin {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	width: 60%;
+	text-align: center;
+}
+
+#modalBtn {
+	background-color: #f9aa33;
+	border-color: silver;
+}
+
+#modalBtn:hover {
+	background-color: #ffd247;
+}
+/*user.jsp*/
+
+#headerLogout{
+	width:10%;
+	display:block;
+}
+
+#headerLogout label{
+	text-decoration:none;
+	color:#ffd247;
+	text-align:center;
+}
+
+#logoutImg {
+	display: block;
+	max-width: 50%;
+	object-fit: contain;
+	border-radius: 50%;
+	margin:auto;
+}
+
+#logoutImg:hover {
+	box-shadow: 0 0 15px 1px white;
+}
+
+#bookArea {
+	padding: 0;
+}
+
+#resultArea {
+	padding-top: 2em;
+	min-height: 100%;
+	background-image: url("../img/book.svg");
+	background-color: #f9aa33;
+	background-repeat: no-repeat;
+	background-size: 30%;
+}
+
+.bookNav {
+	display: block;
+	overflow: hidden;
+	background-color: #344955;
+	top: 0;
+	width: 100%;
+}
+
+.bookNav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.bookNav a:hover {
+	background: #ddd;
+	color: black;
+}
+
+.bookNav a:active {
+	background: #ddd;
+	color: black;
+}
+
+#userArea {
+	margin-top: 1em;
+}
+
+#userArea span {
+	font-family: 'Open-Sans', sans-serif;
+	color: #f9aa33;
+	margin-left: 1em;
+	font-size: 2vw;
+}
+
+#deletionBtn {
+	margin-top: 1em;
+	text-align: center;
+	background-color: #344955;
+	color: #f9aa33;
+	border-color: transparent;
+}
+
+#deletionBtn:hover {
+	background-color: #f9aa33;
+	color: #344955;
+	border-color: transparent;
+}
+
+#footerSearchContainer {
+	text-align: center;
+}
+
+#footerSearchButtons {
+	margin: 0.5em;
+}
+
+#footerSearchContainer .btn {
+	background-color: #344955;
+	color: #f9aa33;
+	border-color: transparent;
+}
+
+#footerSearchContainer .btn:hover {
+	background-color: #f9aa33;
+	color: #fff;
+	border-color: transparent;
+}
+
+#footerSearchContainer .btn.active {
+	background-color: #ffd247;
+	color: #fff;
+	border-color: transparent;
+}
+
+/*searchResult.jsp*/
+.resultTitle {
+	margin-left: 0.5em;
+	background-color: white;
+	padding: 0.3em;
+	border-radius: 5px;
+	color: #f9aa33;
+}
+
+.nothingFoundText{
+	margin: 1em;
+	background-color: white;
+	padding: 0.3em;
+	border-radius: 5px;
+	color: #344955;
+}
+
+.bookFound {
+	width:90%;
+	margin: 1em;
+	background-color: white;
+	padding: 0.3em;
+	border-radius: 5px;
+	color: #344955;
+	text-decoration: none;
+}
+
+.bookFound:hover {
+	background-color: #f9aa33;
+	box-shadow: 0 0 15px 1px black;
+	text-decoration: none;
+}
+
+/*searchDetails*/
+#detailsIsbn{
+	color:white;
+	display:block;
+	font-weight:bolder;
+	background-color:slategray;
+	padding:1em;
+	margin-left:-0.5em;
+}
+
+#detailsAuthor{
+	color:slategray;
+	background-color:antiquewhite;
+	padding:0.5em;
+	font-size:2vw;
+	float:right;
+}
+
+#detailsTitle{
+	color:white;
+	font-size:3em;
+	margin-left:0.5em;
+	text-shadow:3px 3px black;
+	font-weight:bold;
+}
+
+#detailsPageNum{
+	color:white;
+	background-color:slategray;
+	padding:0.5em;
+	border-radius: 10px;
+}
+
+#detailsGenre{
+	color:black;
+	background-color:#f9aa33;
+	padding:0.5em;
+	border-radius: 10px;
+}
+
+#detailsSynopsis{
+	color:#f9aa33;
+	background-color:antiquewhite;
+	padding:0.2em;
+	display:block;
+	margin-top:0.3em;
+	width:50%;
+	height:100%;
+}
+
+#loanReturnButton{
+	margin-top: 1em;
+	text-align: center;
+	background-color: #344955;
+	color: #f9aa33;
+	border-color: transparent;
+	float:right;
+	padding:1em;
+}
+
+#loanReturnButton:hover {
+	background-color: #ffd247;
+	color: #344955;
+	border-color: transparent;
+}
+
+/*Responsive buttons*/
+@media ( max-width : 768px) {
+	.btn-responsive {
+		padding: 1em 2em;
+		font-size: 80%;
+		line-height: 1;
+		border-radius: 3px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		clear: both;
+	}
+}
+
+@media ( min-width : 769px) and (max-width: 992px) {
+	.btn-responsive {
+		padding: 1em 2em;
+		font-size: 90%;
+		line-height: 1.2;
+	}
+}
+
+/*Error message*/
+.errorMessage {
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	text-align: center;
+	margin-top: 1em;
+	color: red;
+}
